@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yolluk\bin\Debug\Yolluk.dll
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yolluk\bin\Debug\Yolluk.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yolluk\obj\Debug\Yolluk.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yolluk\obj\Debug\Yolluk.dll
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yolluk\obj\Debug\Yolluk.pdb

@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Serbest Meslek Uygulaması.exe.config
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Serbest Meslek Uygulaması.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Serbest Meslek Uygulaması.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\obj\Debug\Serbest Meslek Uygulaması.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\obj\Debug\Serbest_Meslek_Uygulaması.Properties.Resources.resources
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\obj\Debug\Serbest Meslek Uygulaması.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\obj\Debug\Serbest Meslek Uygulaması.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\obj\Debug\Serbest Meslek Uygulaması.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\obj\Debug\Serbest_Meslek_Uygulaması.anafrm.resources
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\obj\Debug\Serbest_Meslek_Uygulaması.SerbestMeslekMakbuzuFormu.resources
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Lists.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Lists.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Lists.exe.config
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Serbest Meslek Uygulaması\bin\Debug\Microsoft.ReportViewer.WebForms.DLL

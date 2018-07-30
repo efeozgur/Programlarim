@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yol\bin\Debug\Yol.exe.config
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yol\bin\Debug\Yol.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yol\bin\Debug\Yol.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yol\obj\Debug\Yol.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yol\obj\Debug\Yol.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Yol\obj\Debug\Yol.csprojResolveAssemblyReference.cache

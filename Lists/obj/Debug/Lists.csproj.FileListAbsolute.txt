@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\bin\Debug\Lists.exe.config
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\bin\Debug\Lists.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\bin\Debug\Lists.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\obj\Debug\Lists.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\obj\Debug\Lists.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\obj\Debug\Lists.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\bin\Debug\Yol.exe
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\bin\Debug\Yol.pdb
+C:\Users\Administrator\Desktop\C# Projelerim\Programlarim\Lists\bin\Debug\Yol.exe.config
