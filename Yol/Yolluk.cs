@@ -9,18 +9,18 @@ namespace Yol
     public class Yolluk
     {
 
-        private const double ustDerece = 39.85;
-        private const double altDerece = 38.75;
-        private const double ekC = 45.20;
-        private const double ekB = 48.15;
-        private const double ekA = 51.60;
+        private const double UstDerece = 39.85;
+        private const double AltDerece = 38.75;
+        private const double EkC = 45.20;
+        private const double EkB = 48.15;
+        private const double EkA = 51.60;
 
         private readonly int _kadroDerecesi;
         private readonly int _kacKm;
         private readonly int _kacKisi;
         private readonly int _seyahatSuresi;
         private readonly double _tasitUcret;
-        private bool _esDurumu; 
+        private readonly bool _esDurumu; 
 
 
         public Yolluk(int kadroDerecesi, int kacKm, int seyahatSuresi, double tasitUcret, int kacKisi, bool esDurumu)
@@ -39,31 +39,31 @@ namespace Yol
         {
             if (_kadroDerecesi >= 1 && _kadroDerecesi <= 4)
             {
-                return ustDerece;
+                return UstDerece;
             }
 
             if (_kadroDerecesi >= 5 && _kadroDerecesi <= 15)
             {
-                return altDerece;
+                return AltDerece;
 
             }
 
             if (_kadroDerecesi >= 3000 && _kadroDerecesi < 5800)
             {
-                return ekC;
+                return EkC;
             }
 
             if (_kadroDerecesi >= 5800 && _kadroDerecesi < 8000)
             {
-                return ekB;
+                return EkB;
             }
 
             if (_kadroDerecesi >= 8000)
             {
-                return ekA;
+                return EkA;
             }
 
-            return altDerece;
+            return AltDerece;
         }
 
 

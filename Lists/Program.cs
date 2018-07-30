@@ -16,7 +16,7 @@ namespace Lists
             Console.WriteLine("Seyahat Süresi : " + yol.seyahatSure());
             
             Console.WriteLine("Toplam : " + yol.toplam());
-            Console.Read();
+            Console.Read(); 
         }
 
 
