@@ -1,6 +1,6 @@
 ﻿namespace Yol
 {
-    public class Yolluk
+    public class Yolluk : Kisi
     {
 
         private const double UstDerece = 39.85;
@@ -14,7 +14,7 @@
         private readonly int _kacKisi;
         private readonly int _seyahatSuresi;
         private readonly double _tasitUcret;
-        private readonly bool _esDurumu; 
+        private readonly bool _esDurumu;
 
 
         public Yolluk(int kadroDerecesi, int kacKm, int seyahatSuresi, double tasitUcret, int kacKisi, bool esDurumu)
@@ -24,7 +24,7 @@
             _kacKm = kacKm;
             _seyahatSuresi = seyahatSuresi;
             _tasitUcret = tasitUcret;
-            _kacKisi = kacKisi; 
+            _kacKisi = kacKisi;
         }
 
 
@@ -65,10 +65,10 @@
 
         public double Yevmiye()
         {
-            int digerleri = 0, kendi=0;
-            double ailesi=0, kendisi=0; 
+            int digerleri = 0, kendi = 0;
+            double ailesi = 0, kendisi = 0;
 
-            if (_kacKisi>=1 && _kacKisi<=4)
+            if (_kacKisi >= 1 && _kacKisi <= 4)
             {
                 digerleri = _kacKisi - 1;
                 kendi = _kacKisi - digerleri;
@@ -76,7 +76,8 @@
                 if (_esDurumu)
                 {
                     kendisi = kendi * YevmiyeMiktari() * 10;
-                } else
+                }
+                else
                     kendisi = kendi * YevmiyeMiktari() * 20;
 
             }
@@ -87,31 +88,31 @@
         }
 
 
-       public double YolMesafeUcreti()
-       {
-           if (!_esDurumu)
-           {
-               double oran = YevmiyeMiktari() * 5 / 100;
-               return oran * _kacKm;
+        public double YolMesafeUcreti()
+        {
+            if (!_esDurumu)
+            {
+                double oran = YevmiyeMiktari() * 5 / 100;
+                return oran * _kacKm;
 
             }
 
-           return 0; 
-       }
+            return 0;
+        }
 
         public double SeyahatSure()
         {
-            if (_seyahatSuresi>24)
+            if (_seyahatSuresi > 24)
             {
-                return YevmiyeMiktari() * 2*_kacKisi;
+                return YevmiyeMiktari() * 2 * _kacKisi;
             }
 
-            return YevmiyeMiktari()*_kacKisi;
+            return YevmiyeMiktari() * _kacKisi;
         }
 
         public double TasitUcreti()
         {
-            return _tasitUcret*_kacKisi;
+            return _tasitUcret * _kacKisi;
         }
 
         public double Toplam()

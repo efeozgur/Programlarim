@@ -9,13 +9,13 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            Yolluk yol = new Yolluk(2,121,23,20,1,true);
-            Console.WriteLine("Yevmiye : " + yol.yevmiye());
-            Console.WriteLine("Mesafe Ücreti : " + yol.yolMesafeUcreti());
-            Console.WriteLine("Taşıt Ücreti : " + yol.tasitUcreti());
-            Console.WriteLine("Seyahat Süresi : " + yol.seyahatSure());
+            Yolluk yol = new Yolluk(3000,272,24,60,1,true);
+            Console.WriteLine("Yevmiye : " + yol.Yevmiye());
+            Console.WriteLine("Mesafe Ücreti : " + yol.YolMesafeUcreti());
+            Console.WriteLine("Taşıt Ücreti : " + yol.TasitUcreti());
+            Console.WriteLine("Seyahat Süresi : " + yol.SeyahatSure());
             
-            Console.WriteLine("Toplam : " + yol.toplam());
+            Console.WriteLine("Toplam : " + yol.Toplam());
             Console.Read(); 
         }
 

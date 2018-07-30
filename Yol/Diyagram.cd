@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Yol.Yolluk" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAEAAAEAAAAAAIACAAAACAwAAABABAAYA=</HashCode>
+      <FileName>Yolluk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yol.Kisi" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgAAAAAAAEAAAgAAAEAAAAAAAAAAAACAAQAEAAA=</HashCode>
+      <FileName>Kisi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Yol.Imzalar" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAA=</HashCode>
+      <FileName>Imzalar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
