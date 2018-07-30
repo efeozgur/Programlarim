@@ -69,7 +69,7 @@ namespace Yol
 
 
 
-        public double yevmiye()
+        public double Yevmiye()
         {
             int digerleri = 0, kendi=0;
             double ailesi=0, kendisi=0; 
@@ -81,7 +81,7 @@ namespace Yol
                 ailesi = digerleri * YevmiyeMiktari() * 10;
                 if (_esDurumu)
                 {
-                    kendisi = kendi * YevmiyeMiktari() * 20/2;
+                    kendisi = kendi * YevmiyeMiktari() * 10;
                 } else
                     kendisi = kendi * YevmiyeMiktari() * 20;
 
@@ -93,7 +93,7 @@ namespace Yol
         }
 
 
-       public double yolMesafeUcreti()
+       public double YolMesafeUcreti()
        {
            if (!_esDurumu)
            {
@@ -105,7 +105,7 @@ namespace Yol
            return 0; 
        }
 
-        public double seyahatSure()
+        public double SeyahatSure()
         {
             if (_seyahatSuresi>24)
             {
@@ -115,14 +115,14 @@ namespace Yol
             return YevmiyeMiktari()*_kacKisi;
         }
 
-        public double tasitUcreti()
+        public double TasitUcreti()
         {
             return _tasitUcret*_kacKisi;
         }
 
-        public double toplam()
+        public double Toplam()
         {
-            return yevmiye() + yolMesafeUcreti() + seyahatSure() + tasitUcreti();
+            return Yevmiye() + YolMesafeUcreti() + SeyahatSure() + TasitUcreti();
         }
     }
 }
