@@ -17,6 +17,8 @@ namespace Lists
             
             Console.WriteLine("Toplam : " + yol.Toplam());
             Console.Read(); 
+
+            Kisi kisi = new Kisi("Efe Özgür","İdari İşler Müdürü","Adliye","2018","19/07/2018","Burdur","Erzurum","Kendi","Mehmet Hasan HÜSEYİNOĞLU","Daire Amiri",yol);
         }
 
 

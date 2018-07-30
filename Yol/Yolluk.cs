@@ -1,6 +1,6 @@
 ﻿namespace Yol
 {
-    public class Yolluk : Kisi
+    public class Yolluk 
     {
 
         private const double UstDerece = 39.85;
@@ -17,7 +17,7 @@
         private readonly bool _esDurumu;
 
 
-        public Yolluk(int kadroDerecesi, int kacKm, int seyahatSuresi, double tasitUcret, int kacKisi, bool esDurumu)
+        public Yolluk(int kadroDerecesi, int kacKm, int seyahatSuresi, double tasitUcret, int kacKisi, bool esDurumu) 
         {
             _kadroDerecesi = kadroDerecesi;
             _esDurumu = esDurumu;

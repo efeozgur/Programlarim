@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Yol
+﻿namespace Yol
 {
     public class Kisi
     {
         private string adSoyad, unvani, dairesi, butceYili, ayrilisTarihi,baslangicYeri, varisYeri, akrabalikDerecesi, amirAdSoyad, amirUnvan;
-
-        public Kisi(string adSoyad, string unvani, string dairesi, string butceYili, string ayrilisTarihi, string baslangicYeri, string varisYeri, string akrabalikDerecesi, string amirAdSoyad, string amirUnvan)
+        private Yolluk _yolluk;
+        public Kisi(string adSoyad, string unvani, string dairesi, string butceYili, string ayrilisTarihi, string baslangicYeri, string varisYeri, string akrabalikDerecesi, string amirAdSoyad, string amirUnvan, Yolluk yolluk)
         {
             this.adSoyad = adSoyad;
             this.unvani = unvani;
@@ -22,6 +16,7 @@ namespace Yol
             this.akrabalikDerecesi = akrabalikDerecesi;
             this.amirAdSoyad = amirAdSoyad;
             this.amirUnvan = amirUnvan;
+            _yolluk = yolluk;
         }
     }
 }
